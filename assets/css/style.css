@@ -493,10 +493,10 @@ font-weight: var(--bs-list-group-action-font-weight);
   font-weight: 500;
 }
 
-.btn-primary:hover {
-  background-color: #CDEBE5;
-  border: 1px solid #CDEBE5;
-  color: #327A6D;
+.btn-primary:hover, .btn-primary:active {
+  background-color: #CDEBE5 !important;
+  border: 1px solid #CDEBE5 !important;
+  color: #327A6D !important;
 }
 
 .btn-cari {
